@@ -35,8 +35,6 @@ try:
   amazon_item = response.content
   soup = BeautifulSoup(amazon_item, "lxml")
 
-  # Consider checking robots.txt for scraping guidelines
-
   # Look for the price element based on current HTML structure (adapt if needed)
   price = soup.find(name="span", class_="a-offscreen")
   if price:
