@@ -12,7 +12,7 @@ __Temporary Workaround (Attempted):__
 
 The script previously attempted to use a library called fake-useragent to generate random user-agents in the request headers. This approach aimed to mimic real browser behavior and potentially bypass some anti-scraping checks. However, its effectiveness was limited and became unreliable after a short period.
 
-Bash on Terminal
+- Bash
 ```python
 pip install fake-useragent
 ```
